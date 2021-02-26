@@ -1,7 +1,6 @@
 
-##Headers (Underline)
 
-H1 Header (Underline)
+Project where unit tests are practiced with Junit 5 and Mockito on a Spring Boot 2.3.0 project
 =============
 
 ### Junit5 (https://junit.org/junit5/docs/current/user-guide/#overview-what-is-junit-5 )
