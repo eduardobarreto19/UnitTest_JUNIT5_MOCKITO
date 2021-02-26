@@ -16,14 +16,14 @@ import java.util.Optional;
  * Author: Luis Eduardo Barreto Santamaria
  */
 @RestController()
-public class IndependencyController {
+public class IndependenceController {
 
     CountryResponse countryResponse;
     Optional<Country> country;
     CountryRepository countryRepository;
     DiferenciaEntreFechas diferenciaEntreFechas;
 
-    public IndependencyController(CountryRepository countryRepository,DiferenciaEntreFechas diferenciaEntreFechas) {
+    public IndependenceController(CountryRepository countryRepository, DiferenciaEntreFechas diferenciaEntreFechas) {
         this.countryRepository = countryRepository;
         this.diferenciaEntreFechas = diferenciaEntreFechas;
     }
